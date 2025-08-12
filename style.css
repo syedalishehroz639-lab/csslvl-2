@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+header{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+}
+ul{
+    
+}
+.title {text-align: center;
+    background-color: rgb(45, 246, 242);
+    padding: 10px;
+    font-size: large;
+    color: rgb(58, 12, 12);
+    text-decoration: underline;
+    
+}
+.one {background-color: rgb(174, 231, 174);
+    
+
+}
+
+
+.back image {
+    width: 50px;
+    height: 70px;
+    background-color: brown;
+    background-image:url(techmire_solutions_logo.jfif);
+}
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 10px;
+    background-color: blue;
+    row-gap: 10px;
+}
+
+.card img{width: 300px;
+
+}
+
+.cardContent{
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+.cardContent p{
+    text-align: center;
+}
+
+.cardone {
+    background-color: rgb(232, 239, 239);
+    width: 200px;
+    display: flex;
+    justify-content:space-evenly;
+    height: 100px;
+    padding: 10px 20px;
+}
+.too{text-align: center;
+     background-color: rgb(42, 136, 42);
+}
+
+
